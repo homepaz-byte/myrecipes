@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מתכונים שיעל אוהבת במיוחד</title>
+<meta name="description" content="ניסיתי, אהבתי, שמרתי — אוסף המתכונים שאהבתי מהרשת, עם קישור ישיר לכל מקור.">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Suez+One&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/organic.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero__img" src="assets/hero.jpg" alt="שולחן ערוך עם מתכונים ביתיים">
+</header>
+
+<main class="page">
+
+  <div class="search-row">
+    <input
+      type="search"
+      id="search-input"
+      class="search-input"
+      placeholder="חפש מתכון..."
+      aria-label="חיפוש מתכון"
+      autocomplete="off"
+    >
+  </div>
+
+  <nav class="category-row" id="category-row" aria-label="קטגוריות מתכונים"></nav>
+
+  <p class="result-count" id="result-count" aria-live="polite"></p>
+
+  <section class="recipe-grid" id="recipe-grid" aria-live="polite"></section>
+
+</main>
+
+<script src="js/recipes-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
