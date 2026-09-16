@@ -50,8 +50,7 @@ const RECIPES = [
     category: "עוגות בחושות",
     sourceLabel: "adikosh.co.il",
     url: "https://adikosh.co.il/pound-cake/%D7%A2%D7%95%D7%92%D7%AA-%D7%A7%D7%A4%D7%94-%D7%95%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93/",
-    photoUrl: "https://adikosh.co.il/wp-content/uploads/2020/03/80897334_10214716999711317_5798059077682593792_n-1-e1584807202103.jpg",
-  },
+    photoUrl: photoUrl: "https://adikosh.co.il/wp-content/uploads/2020/10/IMG-8896.jpg",
   {
     name: "עוגת גזר וקרם גבינת שמנת",
     category: "עוגות בחושות",
