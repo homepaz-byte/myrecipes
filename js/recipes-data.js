@@ -43,6 +43,6 @@ const RECIPES = [
     category: "בקר",
     sourceLabel: "lizapanelim.com",
     url: "https://lizapanelim.com/%D7%A7%D7%A6%D7%99%D7%A6%D7%95%D7%AA-%D7%91%D7%A8%D7%95%D7%98%D7%91-%D7%90%D7%93%D7%95%D7%9D-%D7%A2%D7%9D-%D7%A4%D7%99%D7%A8%D7%94/",
-      photoUrl: "https://lizapanelim.com/wp-content/uploads/2013/06/0fe43zy1hveygd9x6qsf.jpg.webp,
+    photoUrl: "https://lizapanelim.com/wp-content/uploads/2013/06/0fe43zy1hveygd9x6qsf.jpg.webp",
   },
 ];
