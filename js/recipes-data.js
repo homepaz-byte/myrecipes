@@ -105,7 +105,7 @@ const RECIPES = [
     photoUrl: "assets/foccacia.jpg",
   },
   {
-    name: "לחם עדשים כתומות ושמחה בלב",
+    name: "לחם עדשים כתומות",
     category: "לחמים",
     sourceLabel: "essyroz.com",
     url: "https://www.essyroz.com/gluten-free-lentils-bread/",
