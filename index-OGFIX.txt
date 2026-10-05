@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מתכונים שיעל אוהבת במיוחד</title>
+<meta name="description" content="ניסיתי, אהבתי, שמרתי — אוסף המתכונים שאהבתי מהרשת, עם קישור ישיר לכל מקור.">
+
+<!-- Open Graph / link-preview tags (WhatsApp, iMessage, Facebook, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://homepaz-byte.github.io/myrecipes/">
+<meta property="og:title" content="מתכונים שיעל אוהבת במיוחד">
+<meta property="og:description" content="ניסיתי, אהבתי, שמרתי — אוסף המתכונים שאהבתי מהרשת, עם קישור ישיר לכל מקור.">
+<meta property="og:image" content="https://homepaz-byte.github.io/myrecipes/assets/hero.jpg">
+<meta property="og:locale" content="he_IL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="מתכונים שיעל אוהבת במיוחד">
+<meta name="twitter:description" content="ניסיתי, אהבתי, שמרתי — אוסף המתכונים שאהבתי מהרשת, עם קישור ישיר לכל מקור.">
+<meta name="twitter:image" content="https://homepaz-byte.github.io/myrecipes/assets/hero.jpg">
+
+<link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/icons/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#c67139">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Suez+One&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/organic.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero__img" src="assets/hero.jpg" alt="שולחן ערוך עם מתכונים ביתיים">
+</header>
+
+<main class="page">
+
+  <div class="search-row">
+    <input
+      type="search"
+      id="search-input"
+      class="search-input"
+      placeholder="חפש מתכון..."
+      aria-label="חיפוש מתכון"
+      autocomplete="off"
+    >
+  </div>
+
+  <nav class="category-row" id="category-row" aria-label="קטגוריות מתכונים"></nav>
+
+  <p class="result-count" id="result-count" aria-live="polite"></p>
+
+  <section class="recipe-grid" id="recipe-grid" aria-live="polite"></section>
+
+</main>
+
+<script src="js/recipes-data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
